@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "testmod",
+	"version": "${version}",
+	"name": "Config Serializer Test Mod",
+	"description": "Test mod",
+	"authors": [
+		"Auroali"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.auroali.configserializer_test.TestMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"configserializer": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "configserializer",
+	"version": "${version}",
+	"name": "Config Serializer",
+	"description": "A library for serializing config files",
+	"authors": [
+		"Auroali"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"badges": ["library"]
+		}
+	}
+}
